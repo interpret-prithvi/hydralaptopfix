@@ -46,7 +46,7 @@ const ProcessTimeline = () => {
               >
                 {/* Content card */}
                 <div
-                  className={`w-full lg:w-5/12 ${
+                  className={`w-full lg:w-5/12 pl-16 lg:pl-0 ${
                     index % 2 === 0 ? 'lg:text-right lg:pr-12' : 'lg:text-left lg:pl-12'
                   }`}
                 >

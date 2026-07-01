@@ -100,7 +100,7 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <form onSubmit={handleSubmit} className="bg-white rounded-2xl p-8 border-2 border-cyan-100 shadow-lg space-y-6">
+            <form onSubmit={handleSubmit} className="bg-white rounded-2xl p-4 sm:p-8 border-2 border-cyan-100 shadow-lg space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-semibold text-gray-900 mb-2">Name *</label>
                 <Input

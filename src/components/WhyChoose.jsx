@@ -33,14 +33,14 @@ const WhyChoose = () => {
           transition={{ duration: 0.6 }}
           className="mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-center">
             Why Professional{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600">
               Laptop Repair
             </span>{' '}
             Matters
           </h2>
-          <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
             Trust your device to experts who understand technology
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -72,14 +72,14 @@ const WhyChoose = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-center">
             Why Hydra Expert{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600">
               Repair
             </span>{' '}
             Matters
           </h2>
-          <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
             Specialized care for your professional equipment investment
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

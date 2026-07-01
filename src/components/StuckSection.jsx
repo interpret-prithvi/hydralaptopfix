@@ -39,7 +39,7 @@ const StuckSection = () => {
             transition={{ duration: 0.8 }}
             className="mb-12"
           >
-            <h2 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tight">
+              <h2 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white mb-8 tracking-tight">
               STUCK?
             </h2>
           </motion.div>
@@ -70,13 +70,13 @@ const StuckSection = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            <h3 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-8">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-8">
               WE FIX IT ALL.
             </h3>
             <Button
               onClick={scrollToContact}
               size="lg"
-              className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-12 py-6 text-xl rounded-xl shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl rounded-xl shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-105"
             >
               Get Help Now
             </Button>

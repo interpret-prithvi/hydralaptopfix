@@ -73,13 +73,13 @@ const Footer = () => {
                 <Phone className="w-4 h-4" />
                 <span>{mockData.contact.phone}</span>
               </li>
-              <li className="flex items-center space-x-2 text-gray-400">
+              <li className="flex items-center space-x-2 text-gray-400 min-w-0">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>{mockData.contact.email}</span>
+                <span className="truncate text-sm">{mockData.contact.email}</span>
               </li>
-              <li className="flex items-center space-x-2 text-gray-400">
+              <li className="flex items-center space-x-2 text-gray-400 min-w-0">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>{mockData.contact.servicesEmail}</span>
+                <span className="truncate text-sm">{mockData.contact.servicesEmail}</span>
               </li>
             </ul>
             <div className="flex space-x-4 mt-6">
